@@ -1,0 +1,29 @@
+{
+  "name": "aiep_trabajo",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.7.0",
+    "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/vercel": "^7.6.0",
+    "@libsql/client": "^0.6.0",
+    "@paralleldrive/cuid2": "^2.2.2",
+    "astro": "^4.9.1",
+    "bowser": "^2.11.0",
+    "drizzle-orm": "^0.30.10",
+    "nanoid": "^5.0.7",
+    "query-string": "^9.0.0",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.21.4"
+  }
+}

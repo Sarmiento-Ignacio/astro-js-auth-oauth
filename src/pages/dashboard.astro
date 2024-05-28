@@ -1,0 +1,16 @@
+---
+import MainLayout from "../layout/main-layout.astro";
+
+const userIsLoggedIn = !!Astro.locals.userId;
+
+if (!userIsLoggedIn) {
+  return Astro.redirect("/login");
+}
+---
+
+<MainLayout title="Dashboard" description="dashboard page">
+  <h1 class="my-10 text-center">This is protected</h1>
+
+  <div class="flex justify-center">
+    <img  src="https://static.printler.com/cache/0/8/1/1/8/c/08118cb095d702b52289a030f9ba1188e345c33b.jpg" alt="protected" class="w-1/2" />
+</MainLayout>
